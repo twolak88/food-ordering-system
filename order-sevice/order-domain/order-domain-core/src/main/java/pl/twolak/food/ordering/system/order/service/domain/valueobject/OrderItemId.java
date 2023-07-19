@@ -1,0 +1,11 @@
+package pl.twolak.food.ordering.system.order.service.domain.valueobject;
+
+import pl.twolak.food.ordering.system.domain.valueobject.BaseId;
+
+public class OrderItemId extends BaseId<Long> {
+
+    public OrderItemId(Long value) {
+
+        super(value);
+    }
+}
